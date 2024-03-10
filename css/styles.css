@@ -523,9 +523,7 @@ body {
 }
 
 .page-footer-subscription-btn {
-  position: relative;
   display: flex;
-  gap: 16px;
   justify-content: center;
   align-items: center;
   text-align: start;
@@ -533,7 +531,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  display: block;
   min-width: 165px;
   height: 40px;
   border: none;
@@ -549,7 +546,6 @@ body {
 }
 
 .page-footer-subscription-btn-icon {
-  position: absolute;
   margin-left: 16px;
 }
 /* /Page Footer Styles */
