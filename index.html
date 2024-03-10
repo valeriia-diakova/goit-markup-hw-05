@@ -512,7 +512,7 @@
           </p>
         </div>
         <div class="page-footer-container-part-second">
-          <p class="page-footer-social-descr">Social media</p>
+          <p class="page-footer-subtitle">Social media</p>
           <ul class="page-footer-social-list">
             <li class="page-footer-social-list-item">
               <a href="" class="page-footer-social-list-link">
@@ -564,6 +564,30 @@
             </li>
           </ul>
         </div>
+        <div class="page-footer-container-part-third">
+          <p class="page-footer-subtitle">Subscribe</p>
+          <form class="page-footer-subscription-form">
+            <label
+              for="user-email-footer"
+              class="page-footer-subscription-label"
+            ></label>
+            <input
+              class="page-footer-subscription-input"
+              type="email"
+              name="user-email-footer"
+              placeholder="E-mail"
+            />
+            <button class="page-footer-subscription-btn" type="submit">
+              Subscribe<svg
+                class="page-footer-subscription-btn-icon"
+                width="24"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- Backdrop -->
@@ -572,8 +596,8 @@
         <button class="modal-close-btn" type="button">
           <svg
             class="modal-close-btn-icon"
-            width="8px"
-            height="8px"
+            width="8"
+            height="8"
             aria-label="close icon"
           >
             <use href="./images/icons.svg#icon-close"></use>
@@ -595,7 +619,7 @@
                 title="Valeriia"
                 required
               />
-              <svg class="review-form-field-icon" width="18" height="18">
+              <svg class="review-form-field-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-user"></use>
               </svg>
             </div>
@@ -636,7 +660,7 @@
               </svg>
             </div>
           </div>
-          <div class="review-form-field-wrapper">
+          <div class="review-form-field-wrapper review-form-textarea-wrapper">
             <label for="user-comment" class="review-form-field-label">
               Comment
             </label>
@@ -652,15 +676,15 @@
             <input
               class="review-form-privacy-checkbox visually-hidden"
               type="checkbox"
-              name="privacy-policy"
+              name="user-privacy"
               value="true"
-              id="privacy-policy"
+              id="user-privacy"
               required
             />
-            <label for="privacy-policy" class="review-form-checkbox-label">
-              <span class="review-form-privacy-policy-checkbox">
+            <label for="user-privacy" class="review-form-checkbox-label">
+              <span class="review-form-user-privacy-checkbox">
                 <svg
-                  class="review-form-privacy-policy-checkbox-icon"
+                  class="review-form-user-privacy-checkbox-icon"
                   width="10"
                   height="8"
                 >
@@ -668,7 +692,7 @@
                 </svg>
               </span>
               I accept the terms and conditions of the
-              <a class="privacy-policy-link" href="">Privacy Policy</a>
+              <a class="user-privacy-link" href="">Privacy Policy</a>
             </label>
           </div>
           <button class="review-form-submit-btn" type="submit">Send</button>
